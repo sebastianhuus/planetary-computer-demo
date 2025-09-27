@@ -1,0 +1,18 @@
+[project]
+name = "planetary-computer-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dask-gateway>=2025.4.0",
+    "datashader>=0.18.2",
+    "matplotlib>=3.10.6",
+    "numpy>=2.3.3",
+    "odc-stac>=0.4.0",
+    "planetary-computer>=1.0.0",
+    "pystac-client>=0.9.0",
+    "rasterio>=1.4.3",
+    "stackstac>=0.5.1",
+    "xarray>=2025.9.0",
+]
